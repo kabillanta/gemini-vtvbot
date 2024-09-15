@@ -6,7 +6,10 @@ import pygame
 from dotenv import load_dotenv
 
 # Load environment variables
+
 load_dotenv()
+
+# Set up the text-to-speech engine 
 
 # Configure the Google Generative AI API with the provided API key
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
@@ -39,7 +42,7 @@ except sr.UnknownValueError:
 except sr.RequestError as e:
     print(f"Could not request results from Google Speech Recognition service; {e}")
 
-# Initialize the Generative Model
+# Model to be used
 model = genai.GenerativeModel("gemini-pro")
 chat = model.start_chat(history=[])
 
@@ -64,3 +67,5 @@ def get_gemini_response(question):
 
 gemini_response = get_gemini_response(spoken_text)
 
+
+print("END OF OUTPUT")
