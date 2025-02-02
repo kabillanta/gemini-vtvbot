@@ -1,6 +1,6 @@
 ## Gemini Voice to Voice Bot
 
-I am thrilled to present our Voice-to-Voice Interactive Chatbot project. This endeavor seamlessly integrates cutting-edge technologies such as Google Speech Recognition and Google Generative AI to offer a captivating chat experience driven entirely by voice interactions.
+Voice-to-Voice Interactive Chatbot project. This endeavor seamlessly integrates cutting-edge technologies such as Google Speech Recognition and Google Generative AI to offer a captivating chat experience driven entirely by voice interactions.
 
 ## Features
 - Speech recognition for user input
