@@ -1,3 +1,5 @@
+This project was created before the development of multimodal AI systems.
+
 ## Gemini Voice to Voice Bot
 
 Voice-to-Voice Interactive Chatbot project. This endeavor seamlessly integrates cutting-edge technologies such as Google Speech Recognition and Google Generative AI to offer a captivating chat experience driven entirely by voice interactions.
